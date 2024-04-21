@@ -36,9 +36,9 @@ and report the best-performing models.
 models across Fraction of Samples and Number of Estimators (Keep other
 parameters constant and to your choice)
 5. Compare the performance of each model in List 1 models with the best-performing ensemble model of the same class with a single side-by-side
-histogram
-Note:
-1. Voting Procedure: Every classifier specified above provides a confidence
+histogram  
+
+Note:1. Voting Procedure: Every classifier specified above provides a confidence
 probability that can be used for soft voting. For regression, divide the
 dataset into train, val, and test splits and use the performance on the val
 set as an insight for confidence.
@@ -66,9 +66,9 @@ respectively
 
 – Blending  
 
-3. For ease, assume the best hyper-parameters from sub-task 1 and train
+2. For ease, assume the best hyper-parameters from sub-task 1 and train
 ensemble models across all combinations of parameters specified above
 and report the best-performing models.
-4. Compare the accuracies and the training time of the best-performing models of Bagging and Stacking ensembles of each Base Estimator Model class.
+3. Compare the accuracies and the training time of the best-performing models of Bagging and Stacking ensembles of each Base Estimator Model class.
 
 
